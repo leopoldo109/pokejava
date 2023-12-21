@@ -1,0 +1,10 @@
+pokemon\TiposPokemon.class
+pokemon\dueloPokemon.class
+pokemon\pokemones\Charmander.class
+entrenador\Entrenador.class
+pokemon\IFuego.class
+pokemon\Pokemon.class
+pokemon\IElectrico.class
+pokemon\IPlanta.class
+pokemon\pokemones\Bulbasaur.class
+pokemon\IAgua.class

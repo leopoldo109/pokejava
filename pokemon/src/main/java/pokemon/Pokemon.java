@@ -4,18 +4,23 @@ public abstract class Pokemon {
 
     // Constructor
     
-    public Pokemon(int num_pokedex, String nombrePokemon, double pesoPokemon, String genero, int temporada) {
+    public Pokemon(int num_pokedex, String nombrePokemon, double pesoPokemon, String genero, int temporada,  TiposPokemon tipo) {
         this.num_pokedex = num_pokedex;
         this.nombrePokemon = nombrePokemon;
         this.pesoPokemon = pesoPokemon;
         this.genero = genero;
         this.temporada = temporada;
+        this.tipo = tipo;
     }
     
     // Metodos
     
     public String getNombre(){
         return "El pokemon es: " + nombrePokemon;
+    }
+    
+    public TiposPokemon tipoPokemon(){
+        return this.tipo;
     }
     
     protected abstract void placaje();
@@ -34,6 +39,8 @@ public abstract class Pokemon {
     protected String genero;
     
     protected int temporada;
+    
+    private final TiposPokemon tipo;
     
     
 }

@@ -2,29 +2,30 @@ package pokemon;
 
 
 public enum TiposPokemon {
-    AGUA(0),
-    FUEGO(1),
-    TIERRA(2),
-    ROCA(3),
-    FANTASMA(4),
-    SINIESTRO(5),
-    VOLADOR(6),
-    VENENO(7),
-    NORMAL(8),
-    ELECTRICO(10),
-    BICHO(11),
-    PSIQUICO(12),
-    LUCHA(13),
-    HIELO(14),
-    DRAGON(15);
+    AGUA("agua"),
+    FUEGO("fuego"),
+    TIERRA("tierra"),
+    ROCA("roca"),
+    FANTASMA("fantasma"),
+    SINIESTRO("sieniestro"),
+    VOLADOR("volador"),
+    VENENO("veneno"),
+    NORMAL("normal"),
+    ELECTRICO("electrico"),
+    BICHO("bicho"),
+    PSIQUICO("psiquico"),
+    LUCHA("lucha"),
+    HIELO("hielo"),
+    DRAGON("dragon"),
+    PLANTA("planta");
     
-    private TiposPokemon (int tipo){
+    private TiposPokemon (String tipo){
         this.tipo = tipo;
     }
     
-    public int get_tipo(){
+    public String get_tipo(){
         return tipo;
     }
     
-    private int tipo;
+    private String tipo;
 }

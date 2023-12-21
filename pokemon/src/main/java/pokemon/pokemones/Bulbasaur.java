@@ -2,18 +2,15 @@ package pokemon.pokemones;
 
 import pokemon.IPlanta;
 import pokemon.Pokemon;
+import pokemon.TiposPokemon;
 
 public class Bulbasaur extends Pokemon implements IPlanta{
    
 
     public Bulbasaur(String sexo) {
-        super(1, "Bulbasaur", 31.29, sexo, 0);
+        super(1, "Bulbasaur", 31.29, sexo, 0, TiposPokemon.PLANTA);
     }
     
-    public String get_nom_pokemon(){
-        return this.nombrePokemon;
-    }
-
     protected void placaje() {
         System.out.println("Bulbasuar uso placaje");
     }

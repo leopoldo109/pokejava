@@ -2,11 +2,12 @@ package pokemon.pokemones;
 
 import pokemon.IFuego;
 import pokemon.Pokemon;
+import pokemon.TiposPokemon;
 
 public class Charmander extends Pokemon implements IFuego{
 
     public Charmander(String sexo) {
-        super(4, "Charmander", 8.5, sexo, 0);
+        super(4, "Charmander", 8.5, sexo, 0, TiposPokemon.FUEGO);
     }
 
     @Override

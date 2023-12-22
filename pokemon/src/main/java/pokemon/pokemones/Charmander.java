@@ -7,7 +7,7 @@ import pokemon.TiposPokemon;
 public class Charmander extends Pokemon implements IFuego{
 
     public Charmander(String sexo) {
-        super(4, "Charmander", 8.5, sexo, 0, TiposPokemon.FUEGO);
+        super(4, "Charmander", 8.5, sexo, TiposPokemon.FUEGO);
     }
 
     @Override

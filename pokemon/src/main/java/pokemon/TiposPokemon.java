@@ -27,5 +27,5 @@ public enum TiposPokemon {
         return tipo;
     }
     
-    private String tipo;
+    private final String tipo;
 }

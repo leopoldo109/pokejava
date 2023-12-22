@@ -2,7 +2,6 @@ package pokemon;
 
 import pokemon.pokemones.*;
 import entrenador.Entrenador;
-import java.util.*;
 
 public class dueloPokemon {
 

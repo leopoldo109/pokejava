@@ -10,6 +10,7 @@ public abstract class Pokemon {
         this.pesoPokemon = pesoPokemon;
         this.genero = genero;
         this.tipo = tipo;
+        this.estado = EstadosPokemon.SALUDABLE;
     }
     
     // Metodos
@@ -20,6 +21,10 @@ public abstract class Pokemon {
     
     public TiposPokemon tipoPokemon(){
         return this.tipo;
+    }
+    
+    public EstadosPokemon getEstadoPokemon(){
+        return estado;
     }
     
     protected abstract void placaje();
@@ -39,5 +44,8 @@ public abstract class Pokemon {
     
     private final TiposPokemon tipo;
     
+    private EstadosPokemon estado;
     
+
+
 }

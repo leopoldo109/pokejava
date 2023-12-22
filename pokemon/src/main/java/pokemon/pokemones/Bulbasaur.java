@@ -8,7 +8,7 @@ public class Bulbasaur extends Pokemon implements IPlanta{
    
 
     public Bulbasaur(String sexo) {
-        super(1, "Bulbasaur", 31.29, sexo, 0, TiposPokemon.PLANTA);
+        super(1, "Bulbasaur", 31.29, sexo, TiposPokemon.PLANTA);
     }
     
     protected void placaje() {
